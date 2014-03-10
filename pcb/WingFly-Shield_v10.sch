@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -577,9 +577,9 @@ DIN A4, landscape with location and doc. field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="161.29" y="34.29" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike 3.0 License</text>
-<text x="161.29" y="31.75" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/3.0/</text>
-<text x="161.29" y="27.94" size="1.27" layer="95">Designed by Watterott electronic - Germany</text>
+<text x="161.29" y="31.75" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
+<text x="161.29" y="29.21" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="161.29" y="25.4" size="1.27" layer="95">Designed by Stephan Watterott (Watterott electronic)</text>
 </plain>
 <instances>
 <instance part="SV3" gate="1" x="66.04" y="118.11"/>
