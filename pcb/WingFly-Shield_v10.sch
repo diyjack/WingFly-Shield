@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -465,8 +465,8 @@ W = angled&lt;p&gt;
 </deviceset>
 </devicesets>
 </library>
-<library name="frames">
-<description>&lt;b&gt;Frames for Sheet and Layout&lt;/b&gt;</description>
+<library name="we-symbol">
+<description>Symbols, Logos...</description>
 <packages>
 </packages>
 <symbols>
@@ -487,17 +487,17 @@ W = angled&lt;p&gt;
 <wire x1="215.265" y1="13.97" x2="215.265" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="256.54" y2="19.05" width="0.1016" layer="94"/>
 <wire x1="215.265" y1="19.05" x2="215.265" y2="24.13" width="0.1016" layer="94"/>
-<text x="217.17" y="15.24" size="2.54" layer="94" font="vector">&gt;DRAWING_NAME</text>
-<text x="217.17" y="10.16" size="2.286" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
-<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
-<text x="216.916" y="4.953" size="2.54" layer="94" font="vector">Sheet:</text>
 <frame x1="0" y1="0" x2="260.35" y2="179.07" columns="6" rows="4" layer="94"/>
+<text x="217.17" y="15.24" size="2.032" layer="94" font="vector">&gt;DRAWING_NAME</text>
+<text x="217.17" y="10.16" size="2.032" layer="94" font="vector">&gt;LAST_DATE_TIME</text>
+<text x="230.505" y="5.08" size="2.54" layer="94" font="vector">&gt;SHEET</text>
+<text x="217.17" y="5.08" size="2.54" layer="94" font="vector">Sheet:</text>
+<text x="217.17" y="20.32" size="2.032" layer="94" font="vector">www.watterott.com</text>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="A4L-LOC" prefix="FRAME" uservalue="yes">
-<description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
-DIN A4, landscape with location and doc. field</description>
+<deviceset name="FRAME-A4L" prefix="FRAME" uservalue="yes">
+<description>Frame: DIN A4 Landscape</description>
 <gates>
 <gate name="G$1" symbol="A4L-LOC" x="0" y="0"/>
 </gates>
@@ -530,14 +530,14 @@ DIN A4, landscape with location and doc. field</description>
 <part name="SV1" library="con-lstb" deviceset="MA08-1" device=""/>
 <part name="X4" library="con-lstb" deviceset="MA08-1" device=""/>
 <part name="SV2" library="con-lstb" deviceset="MA10-1" device=""/>
-<part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
+<part name="FRAME1" library="we-symbol" deviceset="FRAME-A4L" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="161.29" y="31.75" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
-<text x="161.29" y="29.21" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
-<text x="161.29" y="25.4" size="1.27" layer="95">Designed by Stephan Watterott (Watterott electronic)</text>
+<text x="162.56" y="21.59" size="1.27" layer="95">Released under the Creative Commons Attribution Share-Alike License</text>
+<text x="162.56" y="19.05" size="1.27" layer="95">http://creativecommons.org/licenses/by-sa/4.0/</text>
+<text x="162.56" y="15.24" size="1.27" layer="95">Designed by Stephan Watterott (Watterott electronic)</text>
 </plain>
 <instances>
 <instance part="SV3" gate="1" x="66.04" y="118.11"/>
